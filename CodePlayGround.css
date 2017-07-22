@@ -1,0 +1,125 @@
+body{
+            font-family: sans-serif;
+            padding:0;
+            margin:0;
+
+
+
+        }
+        #upperContainer{
+            width: 100%;
+            background: #EEEEEE;
+            padding:7px;
+            height: 27px;
+
+
+        }
+        #logo{
+            float:left;
+            font-weight: bold;
+            font-size: 105%;
+            padding:4px;
+            background: black;
+            color:white;
+            border-radius: 6px;
+
+
+        }
+        #logo:hover{
+            background: white;
+            color:black;
+            cursor: pointer;
+
+        }
+
+
+        #buttonContainer{
+            width:233px;
+            margin: 0 auto;
+
+
+        }
+        .toggleButtons{
+            float:left;
+            padding:5px;
+            font-size: 90%;
+            border:solid 1px grey;
+            border-right: none;
+
+
+        }
+        .toggleButtons:hover
+        {
+            cursor: pointer;
+        }
+        #html{
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+        #Output{
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-right: solid grey 1px;
+
+
+        }
+        .highLighted{
+            background-color: grey;
+        }
+        .active{
+            background-color: #E8F2FF;
+        }
+        .panel{
+            float:left;
+        }
+        #bodyContainer{
+            width:100%;
+        }
+        textarea{
+
+
+            font-weight: bold;
+            border-top: none;
+            border-color: grey;
+            resize:none;
+            border-left: none;
+
+
+
+        }
+        iframe{
+            border: none;
+
+
+        }
+        .hidden{
+            display:none;
+        }
+        .panel{
+            float: left;
+        }
+        #theme{
+            position:relative;
+            font-size: 90%;
+            float:right;
+            border:1px solid grey;
+            border-radius: 3px;
+            padding:3px;
+        }
+        .radio{
+
+            padding:3px;
+
+            font-weight: bold;
+        }
+
+        .theme{
+            float: left;
+            border-left:1px solid rgba(128, 128, 128,0.5);
+        }
+        #Night{
+            border-left: none;
+        }
+
+
+
